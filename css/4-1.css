@@ -316,7 +316,25 @@ footer p {
     }
 
         #main-header .btn {
-        font-size: 16px;
+        visibility: hidden;
+    }
+
+    #main-header .btn::before {
+        padding: 1.3rem 3.5rem;
+        border: 1px solid rgb(121, 80, 75);
+        font-weight: 700;
+        cursor: pointer;
+        width: 80%;
+
+        content: 'Discover';
+        visibility: visible;
+    }
+
+    #main-header .btn:hover:before {
+        background-color:rgb(71, 47, 44);
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
     }
 
 }
