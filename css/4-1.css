@@ -310,6 +310,11 @@ footer p {
 }
 
 @media screen and (max-width: 800px) {
+    #logo {
+        width: 8rem;
+        margin-top: -55px;
+    }
+    
     .gallery {
         grid-template-columns: 1fr;
         gap: 2rem;
